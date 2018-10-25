@@ -7,7 +7,7 @@ def line(katz_deli)
   else 
   katz_deli.each_with_index { |customer, index| 
     customer_array <<  "#{index + 1}. #{customer}"}
-   "The line is currently" + customer_array
+   "The line is currently" + customer_array.join(" ")
 end 
 end 
 
