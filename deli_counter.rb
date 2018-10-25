@@ -1,6 +1,7 @@
 
 
 def line(katz_deli) 
+  customer_array = []
   if katz_deli.empty?
     puts "The line is currently empty."
   else 
