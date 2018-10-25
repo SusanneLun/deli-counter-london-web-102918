@@ -1,6 +1,6 @@
+katz_deli = []
 
-
-def line(name) 
+def line(katz_deli) 
   if name.length == 0 
     puts "The line is currently empty."
   else 
