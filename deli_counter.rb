@@ -10,5 +10,3 @@ def line(katz_deli)
 end 
 end 
 
-katz_deli_line.each.with_index { |customer, idx| customers_string << "#{idx + 1}. #{customer}" }
-    puts "The line is currently: " + customers_string.join(" ")
