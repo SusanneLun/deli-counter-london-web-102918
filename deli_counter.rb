@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
   katz_deli.each_with_index { |customer, index| 
-    customer_array <<  "#{index + 1}. #{customer}"
+    customer_array <<  "#{index + 1}. #{customer}"}
   puts "The line is currently" + customer_array
 end 
 end 
