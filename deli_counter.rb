@@ -1,3 +1,5 @@
 def line(name) 
   if name == 0 
-    puts 
+    puts "The line is currently empty."
+  else 
+    
